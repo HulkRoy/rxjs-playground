@@ -1,9 +1,21 @@
 import './style.css';
 
-import { of, map } from 'rxjs';
+/**
+ * Creation
+ */
+import './rxjs/creation/creation';
 
-of('World')
-  .pipe(map(name => `Hello, ${name}!`))
-  .subscribe(console.log);
+/**
+ * Operators
+ */
+// Creation
+import './rxjs/operators/creation/of';
+import './rxjs/operators/creation/from';
+import './rxjs/operators/creation/fromEvent';
+import './rxjs/operators/creation/fromPromise';
+import './rxjs/operators/creation/never';
+import './rxjs/operators/creation/empty';
+import './rxjs/operators/creation/throw';
+import './rxjs/operators/creation/interval';
+import './rxjs/operators/creation/timer';
 
-// Open the console in the bottom right to see results.
