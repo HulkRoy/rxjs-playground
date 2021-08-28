@@ -4,6 +4,7 @@ import './style.css';
  * Creation
  */
 import './rxjs/creation/creation';
+import './rxjs/creation/observer';
 
 /**
  * Operators
