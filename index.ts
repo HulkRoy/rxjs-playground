@@ -18,3 +18,6 @@ import './rxjs/operators/creation/empty';
 import './rxjs/operators/creation/throwError';
 import './rxjs/operators/creation/interval';
 import './rxjs/operators/creation/timer';
+import './rxjs/operators/creation/range';
+
+import './rxjs/operators/creation/subscription';
