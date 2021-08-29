@@ -13,7 +13,7 @@
     <img src="https://rxjs.dev/generated/images/marketing/home/Rx_Logo-512-512.png" class="logo"/>
     <h1>RxJS Playground</h1>
   </header>
-  <article>
+  <!-- <article>
     <h2>Tips:</h2>
     <ul>
       <li>Try using <code>interval</code> or <code>timer</code> to create async streams of values to play with</li>
@@ -138,17 +138,30 @@ function addDot(x: number, y: number) {
       
       </pre>
     </section>
-  </article>
+  </article> -->
 
-  <h4>
-    Time remaining: <span id="remaining"></span>
-  </h4>
-  <button id="pause">
-  Pause Timer
-  </button>
-  <button id="resume">
-  Resume Timer
-  </button>
+  <div>
+    <h4>
+      Time remaining: <span id="remaining"></span>
+    </h4>
+    <button id="pause">Pause Timer</button>
+    <button id="resume">Resume Timer</button>
+  </div>
+
+  <div id="drag"></div>
+  <div id="message"></div>
+
+  <div id="anchor">
+    <div class="video" id="video">
+      <div class="masker"></div>
+      <video width="100%" controls>
+        <source src="http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_stereo.ogg"
+          type="video/ogg">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+  </div>
+
 </body>
 
 </html>

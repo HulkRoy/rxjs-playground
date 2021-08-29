@@ -25,3 +25,25 @@ import './rxjs/operators/creation/subscription';
 // Pipeable
 import './rxjs/operators/pipeable/customize/map';
 import './rxjs/operators/pipeable/customize/delay';
+
+import './rxjs/operators/pipeable/transformation/map';
+import './rxjs/operators/pipeable/transformation/mapTo';
+
+import './rxjs/operators/pipeable/filtering/filter';
+import './rxjs/operators/pipeable/filtering/take';
+import './rxjs/operators/pipeable/filtering/first';
+import './rxjs/operators/pipeable/filtering/takeUntil';
+import './rxjs/operators/pipeable/filtering/skip';
+import './rxjs/operators/pipeable/filtering/takeLast';
+import './rxjs/operators/pipeable/filtering/last';
+
+import './rxjs/operators/pipeable/combination/concatAll';
+import './rxjs/operators/pipeable/combination/concat';
+import './rxjs/operators/pipeable/combination/startWith';
+import './rxjs/operators/pipeable/combination/merge';
+import './rxjs/operators/pipeable/combination/combineLatest';
+import './rxjs/operators/pipeable/combination/zip';
+import './rxjs/operators/pipeable/combination/withLatestFrom';
+
+import './rxjs/operators/pipeable/recipes/drag';
+import './rxjs/operators/pipeable/recipes/videoFixed';
