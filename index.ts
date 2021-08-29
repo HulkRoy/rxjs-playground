@@ -21,3 +21,7 @@ import './rxjs/operators/creation/timer';
 import './rxjs/operators/creation/range';
 
 import './rxjs/operators/creation/subscription';
+
+// Pipeable
+import './rxjs/operators/pipeable/customize/map';
+import './rxjs/operators/pipeable/customize/delay';
