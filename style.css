@@ -105,3 +105,15 @@ demo
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
 }
+
+.imgContainer {
+  width: 100%;
+  height: 300px;
+}
+
+.imgFollow {
+  position: absolute;
+  border-radius: 50%;
+  border: 3px white solid;
+  transform: translate3d(0, 0, 0);
+}

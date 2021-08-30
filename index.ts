@@ -28,6 +28,10 @@ import './rxjs/operators/pipeable/customize/delay';
 
 import './rxjs/operators/pipeable/transformation/map';
 import './rxjs/operators/pipeable/transformation/mapTo';
+import './rxjs/operators/pipeable/transformation/scan';
+import './rxjs/operators/pipeable/transformation/buffer';
+import './rxjs/operators/pipeable/transformation/bufferTime';
+import './rxjs/operators/pipeable/transformation/bufferCount';
 
 import './rxjs/operators/pipeable/filtering/filter';
 import './rxjs/operators/pipeable/filtering/take';
@@ -36,6 +40,9 @@ import './rxjs/operators/pipeable/filtering/takeUntil';
 import './rxjs/operators/pipeable/filtering/skip';
 import './rxjs/operators/pipeable/filtering/takeLast';
 import './rxjs/operators/pipeable/filtering/last';
+
+import './rxjs/operators/pipeable/utility/delay';
+import './rxjs/operators/pipeable/utility/delayWhen';
 
 import './rxjs/operators/pipeable/combination/concatAll';
 import './rxjs/operators/pipeable/combination/concat';
