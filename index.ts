@@ -40,6 +40,9 @@ import './rxjs/operators/pipeable/filtering/takeUntil';
 import './rxjs/operators/pipeable/filtering/skip';
 import './rxjs/operators/pipeable/filtering/takeLast';
 import './rxjs/operators/pipeable/filtering/last';
+import './rxjs/operators/pipeable/filtering/debounce';
+import './rxjs/operators/pipeable/filtering/throttle';
+import './rxjs/operators/pipeable/filtering/distinct';
 
 import './rxjs/operators/pipeable/utility/delay';
 import './rxjs/operators/pipeable/utility/delayWhen';
