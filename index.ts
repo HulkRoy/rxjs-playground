@@ -46,6 +46,7 @@ import './rxjs/operators/pipeable/filtering/distinct';
 
 import './rxjs/operators/pipeable/utility/delay';
 import './rxjs/operators/pipeable/utility/delayWhen';
+import './rxjs/operators/pipeable/utility/repeat';
 
 import './rxjs/operators/pipeable/combination/concatAll';
 import './rxjs/operators/pipeable/combination/concat';
@@ -54,6 +55,10 @@ import './rxjs/operators/pipeable/combination/merge';
 import './rxjs/operators/pipeable/combination/combineLatest';
 import './rxjs/operators/pipeable/combination/zip';
 import './rxjs/operators/pipeable/combination/withLatestFrom';
+
+import './rxjs/operators/pipeable/errorHandling/catchError';
+import './rxjs/operators/pipeable/errorHandling/retry';
+import './rxjs/operators/pipeable/errorHandling/retryWhen';
 
 import './rxjs/operators/pipeable/recipes/drag';
 import './rxjs/operators/pipeable/recipes/videoFixed';
