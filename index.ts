@@ -32,6 +32,9 @@ import './rxjs/operators/pipeable/transformation/scan';
 import './rxjs/operators/pipeable/transformation/buffer';
 import './rxjs/operators/pipeable/transformation/bufferTime';
 import './rxjs/operators/pipeable/transformation/bufferCount';
+import './rxjs/operators/pipeable/transformation/concatMap';
+import './rxjs/operators/pipeable/transformation/switchMap';
+import './rxjs/operators/pipeable/transformation/mergeMap';
 
 import './rxjs/operators/pipeable/filtering/filter';
 import './rxjs/operators/pipeable/filtering/take';
@@ -47,6 +50,9 @@ import './rxjs/operators/pipeable/filtering/distinct';
 import './rxjs/operators/pipeable/utility/delay';
 import './rxjs/operators/pipeable/utility/delayWhen';
 import './rxjs/operators/pipeable/utility/repeat';
+import './rxjs/operators/pipeable/utility/tap';
+import './rxjs/operators/pipeable/utility/finalize';
+import './rxjs/operators/pipeable/utility/toPromise';
 
 import './rxjs/operators/pipeable/combination/concatAll';
 import './rxjs/operators/pipeable/combination/concat';
@@ -55,6 +61,8 @@ import './rxjs/operators/pipeable/combination/merge';
 import './rxjs/operators/pipeable/combination/combineLatest';
 import './rxjs/operators/pipeable/combination/zip';
 import './rxjs/operators/pipeable/combination/withLatestFrom';
+import './rxjs/operators/pipeable/combination/switchAll';
+import './rxjs/operators/pipeable/combination/mergeAll';
 
 import './rxjs/operators/pipeable/errorHandling/catchError';
 import './rxjs/operators/pipeable/errorHandling/retry';
@@ -62,3 +70,4 @@ import './rxjs/operators/pipeable/errorHandling/retryWhen';
 
 import './rxjs/operators/pipeable/recipes/drag';
 import './rxjs/operators/pipeable/recipes/videoFixed';
+import './rxjs/operators/pipeable/recipes/autoComplete';
